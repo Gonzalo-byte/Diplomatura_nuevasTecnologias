@@ -13,10 +13,17 @@ public class ejercicio01 {
         System.out.println("INTRODUCE LOS SEGUNDOS TRANSCURRIDOS");
         int dato = entrada.nextInt();
         hora = dato / 3600;
-        minutos = (dato - hora * 3600) / 60;
-        segundos = (dato - hora * 3600 - minutos * 60);
-        System.out.println("Han transcurrido:\n" + hora + " horas, " + minutos + "minutos, " + segundos + "segundos");
+        minutos = (dato % 3600) / 60;
+        segundos = ((dato % 3600) % 60);
 
+        //otra opción vieja:
+        /*
+        hora = dato / 3600;
+        minutos = (dato - hora * 3600) / 60;
+        segundos = (dato - hora * 3600 - minutos * 60);*/
+        
+        
+        System.out.println("Han transcurrido:\n" + hora + " horas, " + minutos + "minutos, " + segundos + "segundos");
     }
 
 }
