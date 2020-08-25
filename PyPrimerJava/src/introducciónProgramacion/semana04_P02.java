@@ -1,5 +1,6 @@
 package introducciónProgramacion;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -54,7 +55,9 @@ public class semana04_P02 {
         //salida:
         System.out.println("La cantidad de veces que ambos dados coincidieron fue: " + contIgual + " y representa el:" + porcentaje + " %");
         System.out.println("La primera vez que la suma de ambos dados fue impar fue en el tiro: " + impar);
-
+        /* System.out.println(Arrays.toString(dado1));
+        System.out.println(Arrays.toString(dado2));
+         */
     }
 
 }
