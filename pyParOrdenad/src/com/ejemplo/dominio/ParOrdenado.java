@@ -55,7 +55,7 @@ public class ParOrdenado {
             cuadrante = "Segundo cuadrante";
 
         } else {
-            cuadrante = "Origen";
+            cuadrante = "Alguna de las coordenadas está sobre el origen";
         }
 
         return "El par se encuentra en el " + cuadrante;

@@ -3,7 +3,7 @@ package com.ejemplo;
 import com.ejemplo.dominio.Libro;
 import java.util.Scanner;
 
-public class Biblioteca {
+public class BibliotecaEjecutable {
 
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in); //para cadenas
